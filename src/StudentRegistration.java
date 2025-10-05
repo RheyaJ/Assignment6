@@ -24,15 +24,15 @@ public class StudentRegistration {
     }
 
     public static void main(String[] args) {
-        StudentRegistration reg = new StudentRegistration();
-        reg.addStudent("111", "Rheya");
-        reg.addStudent("112", "Siya");
-        reg.addStudent("113", "Diya");
-        reg.addStudent("114", "Jay");
-        reg.addStudent("115", "Adam");
+        StudentRegistration str = new StudentRegistration();
+        str.addStudent("111", "Rheya");
+        str.addStudent("112", "Siya");
+        str.addStudent("113", "Diya");
+        str.addStudent("114", "Jay");
+        str.addStudent("115", "Adam");
 
-        System.out.println("\nFind Student 113: " + reg.findStudent("113"));
-        System.out.println("Find Student 118: " + reg.findStudent("118"));
+        System.out.println("\nFind Student 113: " + str.findStudent("113"));
+        System.out.println("Find Student 118: " + str.findStudent("118"));
     }
 }
 

@@ -33,18 +33,18 @@ class ShoppingCart {
     }
 
     public static void main(String[] args) {
-        ShoppingCart cart = new ShoppingCart();
-        cart.addItem("watermelon");
-        cart.addItem("Chips");
-        cart.addItem("Pepsi");
-        cart.addItem("Mug");
-        cart.addItem("towel");
-        cart.addItem("Charger");
+        ShoppingCart c = new ShoppingCart();
+        c.addItem("watermelon");
+        c.addItem("Chips");
+        c.addItem("Pepsi");
+        c.addItem("Mug");
+        c.addItem("towel");
+        c.addItem("Charger");
 
-        cart.displayCart();
-        cart.removeItem(2);
-        cart.displayCart();
+        c.displayCart();
+        c.removeItem(2);
+        c.displayCart();
 
-        System.out.println("Item at index 3: " + cart.getItem(3));
+        System.out.println("Item at index 3: " + c.getItem(3));
     }
 }

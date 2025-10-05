@@ -22,14 +22,14 @@ class LibraryCatalog {
     }
 
     public static void main(String[] args) {
-        LibraryCatalog catalog = new LibraryCatalog();
-        catalog.addBook("Java Programming");
-        catalog.addBook("Data Structures");
-        catalog.addBook("Algorithms");
-        catalog.addBook("Python Basics");
-        catalog.addBook("Web Development");
+        LibraryCatalog r = new LibraryCatalog();
+        r.addBook("Java Programming");
+        r.addBook("Data Structures");
+        r.addBook("Algorithms");
+        r.addBook("Python Basics");
+        r.addBook("Web Development");
 
-        catalog.displaySortedBooks();
+        r.displaySortedBooks();
     }
 }
 
