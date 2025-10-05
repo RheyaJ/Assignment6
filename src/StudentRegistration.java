@@ -25,11 +25,11 @@ public class StudentRegistration {
 
     public static void main(String[] args) {
         StudentRegistration reg = new StudentRegistration();
-        reg.addStudent("111", "Riya");
-        reg.addStudent("112", "Aman");
-        reg.addStudent("113", "Neha");
-        reg.addStudent("114", "Raj");
-        reg.addStudent("115", "Tina");
+        reg.addStudent("111", "Rheya");
+        reg.addStudent("112", "Siya");
+        reg.addStudent("113", "Diya");
+        reg.addStudent("114", "Jay");
+        reg.addStudent("115", "Adam");
 
         System.out.println("\nFind Student 113: " + reg.findStudent("113"));
         System.out.println("Find Student 118: " + reg.findStudent("118"));
